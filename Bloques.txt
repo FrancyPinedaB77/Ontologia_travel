@@ -1,0 +1,107 @@
+//Bloques
+
+//Para la clase BackpackersDestination #se itera BackDestination_lugar_0
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BackDestination_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#BackpackersDestination"/>
+	<hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
+	<hasRating rdf:resource="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
+</owl:NamedIndividual>
+
+
+// Para la clase Beach #Se itera BondiBeach
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BondiBeach">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Beach"/>
+	<rdfs:comment>Playa1</rdfs:comment>
+</owl:NamedIndividual>
+
+
+//Para la clase BudgetHotelDestination # Se itera BudgetHotel_lugar_0
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BudgetHotel_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#BudgetHotelDestination"/>
+	<hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
+	<hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
+</owl:NamedIndividual>
+
+//Para la clase FamilyDestination #Se itera Familiar_lugar_0
+
+ <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#FamilyDestination"/>
+	<hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
+	<hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0"/>
+	<hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
+</owl:NamedIndividual>
+    
+
+//Para la clase  QuietDestination #Se debe iterar QuietDestination_lugar_0
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#QuietDestination_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#QuietDestination"/>
+	<hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
+</owl:NamedIndividual>
+
+
+//Para la clase RetireeDestination # Se itera RetireDestination_lugar_0
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#RetireDestination_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#RetireeDestination"/>
+	<hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
+	<hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Museum_lugar_0"/>
+</owl:NamedIndividual>
+
+
+//Para la clase RuralArea #Se itera Woomera
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Woomera">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#RuralArea"/>
+</owl:NamedIndividual>
+
+
+//Para la clase Farmland_lugar_0 # Se itera Farmland_lugar_0
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Farmland_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Farmland"/>
+</owl:NamedIndividual>
+
+
+//Para la clase NationalPark # Se itera BlueMountains
+
+ <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BlueMountains">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#NationalPark"/>
+</owl:NamedIndividual>
+ 
+
+//Para la clase UrbanArea # Se itera Urban_area_lugar_0
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Urban_area_lugar_0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#UrbanArea"/>
+</owl:NamedIndividual>
+
+
+//Para la clase City # Se itera Cairns
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Cairns">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#City"/>
+</owl:NamedIndividual>
+
+//Para la clase  Capital # Se itera sidney
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Sydney">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Capital"/>
+	<hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#BackDestination_lugar_0"/>
+	<hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
+	<hasPart rdf:resource="http://www.owl-ontologies.com/travel.owl#BondiBeach"/>
+</owl:NamedIndividual>
+
+
+//Para la clase Town # Se itera Coonabarabran
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Coonabarabran">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Town"/>
+</owl:NamedIndividual>
+
+
+
+

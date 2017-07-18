@@ -531,6 +531,14 @@
     
 
 
+    <!-- http://www.owl-ontologies.com/travel.owl#Safari2 -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/travel.owl#Safari2">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/travel.owl#Sightseeing"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.owl-ontologies.com/travel.owl#Sightseeing -->
 
     <owl:Class rdf:about="http://www.owl-ontologies.com/travel.owl#Sightseeing">
@@ -697,6 +705,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#FamilyDestination"/>
+        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
     </owl:NamedIndividual>
     
 
@@ -774,6 +785,7 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#RetireDestination_lugar_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#RetireeDestination"/>
         <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Museum_lugar_0"/>
     </owl:NamedIndividual>
     
 
@@ -858,6 +870,7 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#sports_tipo_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Surfing"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0"/>
     </owl:NamedIndividual>
     
 
