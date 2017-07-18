@@ -603,7 +603,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BackDestination_lugar_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#BackpackersDestination"/>
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0"/>
         <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
         <hasRating rdf:resource="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
     </owl:NamedIndividual>
@@ -677,14 +676,6 @@
     
 
 
-    <!-- http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0 -->
-
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Adventure"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.owl-ontologies.com/travel.owl#Contacto_lugar_0 -->
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Contacto_lugar_0">
@@ -726,19 +717,10 @@
     
 
 
-    <!-- http://www.owl-ontologies.com/travel.owl#Hiking_lugar_0 -->
+    <!-- http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0 -->
 
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Hiking_lugar_0">
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Hiking"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.owl-ontologies.com/travel.owl#HotelHikin_lugar_0 -->
-
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#HotelHikin_lugar_0">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#LuxuryHotel"/>
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Hiking_lugar_0"/>
     </owl:NamedIndividual>
     
 
@@ -774,7 +756,6 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#QuietDestination_lugar_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#QuietDestination"/>
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0"/>
         <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
     </owl:NamedIndividual>
     
