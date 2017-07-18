@@ -527,7 +527,6 @@
 
     <owl:Class rdf:about="http://www.owl-ontologies.com/travel.owl#Safari">
         <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/travel.owl#Adventure"/>
-        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/travel.owl#Sightseeing"/>
     </owl:Class>
     
 
@@ -631,6 +630,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BondiBeach">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Beach"/>
+        <rdfs:comment>Playa1</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -677,35 +677,10 @@
     
 
 
-    <!-- http://www.owl-ontologies.com/travel.owl#Canberra -->
-
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Canberra">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Capital"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0 -->
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Adventure"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.owl-ontologies.com/travel.owl#CapeYork -->
-
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#CapeYork">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#RuralArea"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.owl-ontologies.com/travel.owl#Ciudad_capitalM_lugar_0 -->
-
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Ciudad_capitalM_lugar_0">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Capital"/>
-        <hasPart rdf:resource="http://www.owl-ontologies.com/travel.owl#Museum_lugar_0"/>
     </owl:NamedIndividual>
     
 
@@ -727,17 +702,19 @@
     
 
 
-    <!-- http://www.owl-ontologies.com/travel.owl#CurrawongBeach -->
+    <!-- http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0 -->
 
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#CurrawongBeach">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Beach"/>
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#FamilyDestination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0 -->
+    <!-- http://www.owl-ontologies.com/travel.owl#Farmland_lugar_0 -->
 
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0"/>
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Farmland_lugar_0">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Farmland"/>
+    </owl:NamedIndividual>
     
 
 
@@ -793,10 +770,37 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
     
 
 
+    <!-- http://www.owl-ontologies.com/travel.owl#QuietDestination_lugar_0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#QuietDestination_lugar_0">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#QuietDestination"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Canon_lugar_aventura_0"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.owl-ontologies.com/travel.owl#Relaxation_S_lugar_0 -->
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Relaxation_S_lugar_0">
         <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Sunbating_lugar_0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/travel.owl#RetireDestination_lugar_0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#RetireDestination_lugar_0">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#RetireeDestination"/>
+        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/travel.owl#Safari_lugar_0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Safari_lugar_0">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Safari"/>
     </owl:NamedIndividual>
     
 
@@ -816,7 +820,6 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
         <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#BackDestination_lugar_0"/>
         <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
         <hasPart rdf:resource="http://www.owl-ontologies.com/travel.owl#BondiBeach"/>
-        <hasPart rdf:resource="http://www.owl-ontologies.com/travel.owl#CurrawongBeach"/>
     </owl:NamedIndividual>
     
 
@@ -837,10 +840,10 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
     
 
 
-    <!-- http://www.owl-ontologies.com/travel.owl#Warrumbungles -->
+    <!-- http://www.owl-ontologies.com/travel.owl#Urban_area_lugar_0 -->
 
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Warrumbungles">
-        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#NationalPark"/>
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Urban_area_lugar_0">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#UrbanArea"/>
     </owl:NamedIndividual>
     
 
