@@ -1,0 +1,39 @@
+http://www.owl-ontologies.com/travel.owl#Destination
+    http://www.owl-ontologies.com/travel.owl#ActivityhasContact
+        http://www.owl-ontologies.com/travel.owl#Contact
+            http://www.owl-ontologies.com/travel.owl#hasCity
+                City
+            http://www.owl-ontologies.com/travel.owl#hasEmail
+                Email
+            http://www.owl-ontologies.com/travel.owl#hasStreet
+                Street
+            http://www.owl-ontologies.com/travel.owl#hasZipCode
+                Zipcode
+    http://www.owl-ontologies.com/travel.owl#hasAccommodation
+        http://www.owl-ontologies.com/travel.owl#Accommodation
+            http://www.owl-ontologies.com/travel.owl#hasAccommodation
+                http://www.owl-ontologies.com/travel.owl#BedAndBreakfast
+                http://www.owl-ontologies.com/travel.owl#BudgetAccommodation
+                http://www.owl-ontologies.com/travel.owl#Campground
+                http://www.owl-ontologies.com/travel.owl#Hotel
+    http://www.owl-ontologies.com/travel.owl#hasActivity
+        http://www.owl-ontologies.com/travel.owl#Activity
+            http://www.owl-ontologies.com/travel.owl#hasActivity
+                http://www.owl-ontologies.com/travel.owl#Adventure
+                http://www.owl-ontologies.com/travel.owl#Relaxation
+                http://www.owl-ontologies.com/travel.owl#Sighseeing
+                http://www.owl-ontologies.com/travel.owl#Sports
+http://www.owl-ontologies.com/travel.owl#Destination
+    http://www.owl-ontologies.com/travel.owl#hasPart
+        http://www.owl-ontologies.com/travel.owl#Sports
+        http://www.owl-ontologies.com/travel.owl#Sports
+        http://www.owl-ontologies.com/travel.owl#Sports
+        http://www.owl-ontologies.com/travel.owl#Sports
+    http://www.owl-ontologies.com/travel.owl#hasPart
+        http://www.owl-ontologies.com/travel.owl#Sports
+        http://www.owl-ontologies.com/travel.owl#Sports
+        http://www.owl-ontologies.com/travel.owl#Sports
+        http://www.owl-ontologies.com/travel.owl#Sports
+Literal
+Recurso
+RecursoPrincipal

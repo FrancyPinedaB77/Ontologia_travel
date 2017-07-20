@@ -1,36 +1,67 @@
 <?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY gold "http://purl.org/linguistics/gold/" >
+    <!ENTITY qur "http://quranontology.com/Resource/" >
+    <!ENTITY crm "http://purl.org/NET/cidoc-crm/core#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY daml "http://www.daml.org/2001/03/daml+oil#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY kennedys "http://topbraid.org/examples/kennedys#" >
+    <!ENTITY webprotege "http://protege.stanford.edu/webprotege/" >
+    <!ENTITY geo "http://www.w3.org/2003/01/geo/wgs84_pos#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Example "http://www.francypineda.net/Ontology/Example#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY ukat "http://www.ukat.org.uk/downloads/skos-schema-ext/" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+    <!ENTITY food "http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#" >
+    <!ENTITY vin "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#" >
+    <!ENTITY IITM "http://www.semanticweb.org/aishwarya-user/ontologies/2015/2/IITM#" >
+    <!ENTITY bibliography "http://www.linguistics-ontology.org/bibliography/bibliography.owl#" >
+]>
+
+
 <rdf:RDF xmlns="http://www.owl-ontologies.com/travel.owl#"
      xml:base="http://www.owl-ontologies.com/travel.owl"
-     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:qur="http://quranontology.com/Resource/"
-     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-     xmlns:gold="http://purl.org/linguistics/gold/"
      xmlns:bibliography="http://www.linguistics-ontology.org/bibliography/bibliography.owl#"
-     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:Example="http://www.francypineda.net/Ontology/Example#"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:vin="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:crm="http://purl.org/NET/cidoc-crm/core#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
-     xmlns:food="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"
-     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:Example="http://www.francypineda.net/Ontology/Example#"
+     xmlns:qur="http://quranontology.com/Resource/"
+     xmlns:vin="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
+     xmlns:ukat="http://www.ukat.org.uk/downloads/skos-schema-ext/"
+     xmlns:crm="http://purl.org/NET/cidoc-crm/core#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:kennedys="http://topbraid.org/examples/kennedys#"
-     xmlns:IITM="http://www.semanticweb.org/aishwarya-user/ontologies/2015/2/IITM#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:gold="http://purl.org/linguistics/gold/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ukat="http://www.ukat.org.uk/downloads/skos-schema-ext/">
+     xmlns:kennedys="http://topbraid.org/examples/kennedys#"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
+     xmlns:food="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"
+     xmlns:IITM="http://www.semanticweb.org/aishwarya-user/ontologies/2015/2/IITM#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <owl:Ontology rdf:about="http://www.owl-ontologies.com/travel.owl">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An example ontology for tutorial purposes.</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 by Holger Knublauch (holger@smi.stanford.edu)</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="&xsd;string">1.0 by Holger Knublauch (holger@smi.stanford.edu)</owl:versionInfo>
+        <rdfs:comment rdf:datatype="&xsd;string">An example ontology for tutorial purposes.</rdfs:comment>
     </owl:Ontology>
     
 
@@ -49,8 +80,8 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasAccommodation -->
 
     <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasAccommodation">
-        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
         <rdfs:range rdf:resource="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
     </owl:ObjectProperty>
     
 
@@ -58,9 +89,9 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasActivity -->
 
     <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasActivity">
-        <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/travel.owl#isOfferedAt"/>
-        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
         <rdfs:range rdf:resource="http://www.owl-ontologies.com/travel.owl#Activity"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
+        <owl:inverseOf rdf:resource="http://www.owl-ontologies.com/travel.owl#isOfferedAt"/>
     </owl:ObjectProperty>
     
 
@@ -77,9 +108,9 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasPart -->
 
     <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasPart">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:range rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Destination"/>
     </owl:ObjectProperty>
     
 
@@ -116,9 +147,9 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasCity -->
 
     <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasCity">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Contact"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
@@ -126,9 +157,9 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasEMail -->
 
     <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasEMail">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Contact"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
@@ -136,9 +167,9 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasStreet -->
 
     <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasStreet">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Contact"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
@@ -146,9 +177,9 @@
     <!-- http://www.owl-ontologies.com/travel.owl#hasZipCode -->
 
     <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/travel.owl#hasZipCode">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.owl-ontologies.com/travel.owl#Contact"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
@@ -167,7 +198,7 @@
     <!-- http://www.owl-ontologies.com/travel.owl#Accommodation -->
 
     <owl:Class rdf:about="http://www.owl-ontologies.com/travel.owl#Accommodation">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A place to stay for tourists.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">A place to stay for tourists.</rdfs:comment>
     </owl:Class>
     
 
@@ -179,12 +210,12 @@
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
-                    <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#ThreeStarRating"/>
                     <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
+                    <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#ThreeStarRating"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consists of exactly three individuals.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Consists of exactly three individuals.</rdfs:comment>
     </owl:Class>
     
 
@@ -231,7 +262,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A destination that provides budget accommodation and offers sport or adventure activities.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">A destination that provides budget accommodation and offers sport or adventure activities.</rdfs:comment>
     </owl:Class>
     
 
@@ -275,7 +306,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accommodation that has either one or two star rating.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Accommodation that has either one or two star rating.</rdfs:comment>
     </owl:Class>
     
 
@@ -301,7 +332,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A destination with a hotel that is also a budget accommodation.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">A destination with a hotel that is also a budget accommodation.</rdfs:comment>
     </owl:Class>
     
 
@@ -378,16 +409,16 @@
                     <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#Destination"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.owl-ontologies.com/travel.owl#hasAccommodation"/>
-                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                        <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.owl-ontologies.com/travel.owl#hasActivity"/>
-                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+                        <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minCardinality>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A destination with at least one accommodation and at least 2 activities.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">A destination with at least one accommodation and at least 2 activities.</rdfs:comment>
     </owl:Class>
     
 
@@ -444,14 +475,14 @@
         <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/travel.owl#RuralArea"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/travel.owl#hasAccommodation"/>
-                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/travel.owl#Campground"/>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/travel.owl#hasActivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/travel.owl#Hiking"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/travel.owl#hasActivity"/>
-                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/travel.owl#Hiking"/>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/travel.owl#hasAccommodation"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/travel.owl#Campground"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -471,7 +502,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A destination that is not frequented by noisy families.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">A destination that is not frequented by noisy families.</rdfs:comment>
     </owl:Class>
     
 
@@ -509,7 +540,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A destination with at least one three star accommodation and sightseeing opportunities.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">A destination with at least one three star accommodation and sightseeing opportunities.</rdfs:comment>
     </owl:Class>
     
 
@@ -611,8 +642,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#BackDestination_lugar_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#BackpackersDestination"/>
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
         <hasRating rdf:resource="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
     </owl:NamedIndividual>
     
 
@@ -687,8 +718,8 @@
     <!-- http://www.owl-ontologies.com/travel.owl#Contacto_lugar_0 -->
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Contacto_lugar_0">
-        <hasContact rdf:resource="http://www.owl-ontologies.com/travel.owl#contacto_numero_0"/>
         <rdfs:comment>Las actiuvidades tienen contacto</rdfs:comment>
+        <hasContact rdf:resource="http://www.owl-ontologies.com/travel.owl#contacto_numero_0"/>
     </owl:NamedIndividual>
     
 
@@ -705,8 +736,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Familiar_lugar_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#FamilyDestination"/>
-        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
         <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0"/>
+        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
         <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
     </owl:NamedIndividual>
     
@@ -739,10 +770,10 @@
     <!-- http://www.owl-ontologies.com/travel.owl#HotelYoga_lugar_0 -->
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#HotelYoga_lugar_0">
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Yoga_lugar_0"/>
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
         <rdfs:comment>Este hotel tiene actividades en Yoga y Deportes
 Lugar a donde pueden llegar los turistas</rdfs:comment>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Yoga_lugar_0"/>
+        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#sports_tipo_0"/>
     </owl:NamedIndividual>
     
 
@@ -810,9 +841,8 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#Sydney">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Capital"/>
-        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#BackDestination_lugar_0"/>
-        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
         <hasPart rdf:resource="http://www.owl-ontologies.com/travel.owl#BondiBeach"/>
+        <hasAccommodation rdf:resource="http://www.owl-ontologies.com/travel.owl#FourSeasons"/>
     </owl:NamedIndividual>
     
 
@@ -870,7 +900,6 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/travel.owl#sports_tipo_0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/travel.owl#Surfing"/>
-        <hasActivity rdf:resource="http://www.owl-ontologies.com/travel.owl#Hikin_tipo_0"/>
     </owl:NamedIndividual>
     
 
@@ -884,23 +913,23 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
      -->
 
     <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#ThreeStarRating"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#ThreeStarRating"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#OneStarRating"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/travel.owl#TwoStarRating"/>
         </owl:distinctMembers>
     </rdf:Description>
@@ -908,5 +937,5 @@ Lugar a donde pueden llegar los turistas</rdfs:comment>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
